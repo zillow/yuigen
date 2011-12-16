@@ -2,6 +2,7 @@
   "author": "Daniel Stockman <daniel.stockman@gmail.com>",
   "name": "yuigen",
   "description": "CLI template-based generator for YUI modules and tests.",
+  "keywords": ["YUI", "generator", "template", "automation", "cli"],
   "version": "0.0.1",
   "homepage": "https://github.com/zillow/yuigen",
   "repository": {
@@ -9,9 +10,12 @@
     "url": "git://github.com/zillow/yuigen.git"
   },
   "main": "./lib/yuigen.js",
+  "bin": "./bin/yuigen",
   "engines": {
     "node": ">=0.4.12"
   },
-  "dependencies": {},
+  "dependencies": {
+    "commander": "~0.5.0"
+  },
   "devDependencies": {}
 }
