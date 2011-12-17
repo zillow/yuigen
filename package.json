@@ -3,7 +3,7 @@
   "name": "yuigen",
   "description": "CLI template-based generator for YUI modules and tests.",
   "keywords": ["YUI", "generator", "template", "automation", "cli"],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "https://github.com/zillow/yuigen",
   "repository": {
     "type": "git",
